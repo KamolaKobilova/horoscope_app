@@ -1,0 +1,34 @@
+.zodiac-signs-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .zodiac-card {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    width: 150px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .zodiac-image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .zodiac-card h2 {
+    font-size: 1.2em;
+    margin: 10px 0;
+  }
+  
+  .zodiac-card p {
+    font-size: 0.9em;
+    color: #555;
+  }
+  
