@@ -1,5 +1,5 @@
 import React from "react";
-import "./index.css"; // Ensure this file exists for styling
+import "./style.css"; // Ensure this file exists for styling
 
 // Define a type for the zodiac sign
 type ZodiacSign = {

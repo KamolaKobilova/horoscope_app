@@ -17,10 +17,12 @@
   
   .zodiac-image {
     width: 100%;
-    height: auto;
+    height: 150px; /* You can adjust the height to your preference */
+    object-fit: cover; /* This ensures the image covers the container without distorting */
     border-radius: 5px;
     margin-bottom: 10px;
   }
+  
   
   .zodiac-card h2 {
     font-size: 1.2em;

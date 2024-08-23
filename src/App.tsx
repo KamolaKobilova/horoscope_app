@@ -1,12 +1,20 @@
-import { React } from "react";
-import HomePage from "./Components/HomePage/index";
+import React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import ZodiacSigns from "./Components/MainPage";
+import HoroscopePage from "./Components/Horoscope";
 
-function App() {
+const App: React.FC = () => {
   return (
     <>
-      <HomePage />
+      <HoroscopePage />
     </>
+    // <Router>
+    //   <Routes>
+    //     <Route path="/" element={<ZodiacSigns />} />
+    //     <Route path="/horoscope/:signName" element={<HoroscopePage />} />
+    //   </Routes>
+    // </Router>
   );
-}
+};
 
 export default App;
